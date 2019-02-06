@@ -1,0 +1,69 @@
+body
+    font-family: Montserrat, sans-serif
+
+.App
+    min-height: 100vh
+    width: 375px
+    .header
+        display: flex
+        flex-direction: column
+        width: 375px
+        height: 80px
+        justify-content: space-around
+        background-color: #0B3157
+        .header-top
+            display: flex
+            width: 375px
+            height: 40px
+            .back
+                height: 26px
+                filter: invert(60%)
+                cursor: pointer
+                align-self: center
+                margin-left: 5px
+                user-select: none
+                img
+                    height: 26px
+                &:hover
+                    filter: invert(70%)
+            p
+                user-select: none
+                margin-left: 90px
+                align-self: center
+                font-size: 26px
+                letter-spacing: -0.5px
+                font-weight: 600
+                font-family: 'Racing Sans One', cursive
+                color: white
+                .not-shred
+                    color: orangered
+        .tabControl
+            display: flex
+            align-self: flex-end
+            width: 375px
+            height: 40px
+            justify-content: space-around
+            a
+                color: #E6EAEE50
+                display: flex
+                flex-direction: column
+                justify-content: center
+                width: 100%
+                align-items: center
+                text-decoration: none
+                transition: all 0.3s ease
+                outline: none
+                font-family: "Montserrat", sans-serif
+                font-size: 12px
+                font-weight: 700
+                letter-spacing: -0.43px
+                line-height: 14px
+                user-select: none
+                border-bottom: 2px solid #143D76
+                .blue
+                    height: 2px
+                    width: 100%
+                    background-color: #48C1C2
+                &:hover
+                    color: #E6EAEE80
+

@@ -1,0 +1,80 @@
+.Register-Home
+    background-color: #0B3157
+    label
+        margin-left: 32px
+    .register
+        padding-top: 20px
+        label
+            color: #48C1C2
+            font-family: "Montserrat", sans-serif
+            font-size: 24px
+            font-weight: 700
+            letter-spacing: -1.3px
+            line-height: 29px
+            width: 311px
+            text-align: left
+    .input-label
+        display: flex
+        flex-direction: column
+        width: 375px
+        margin-top: 16px
+        label
+            color: #FFFFFF40
+            font-family: "Montserrat", sans-serif
+            font-size: 12px
+            font-weight: 400
+            line-height: 14px
+            width: 311px
+            text-align: left
+            user-select: none
+        input
+            background-color: #0B3157
+            width: 311px
+            align-self: center
+            border: 0
+            border-bottom: 2px
+            border-color: #FFFFFF10
+            border-style: solid
+            outline: none
+            font-size: 17px
+            font-weight: 400
+            font-family: "Montserrat", sans-serif
+            color: #e8e9eb
+            line-height: 25px
+            transition: all .3s
+        .Register-input-invalid
+            border-color: red
+        .Register-input-valid
+            &:hover
+                border-color: #FFFFFF20
+            &:focus
+                border-color: #48C1C2
+        .message
+            text-align: right
+            margin-top: 2px
+            color: #FF0000C0
+    button
+        outline: none
+        margin-bottom: 40px
+        border-width: 0
+        border-style: solid
+        width: 311px
+        margin-top: 30px
+        height: 48px
+        background-color: #47C1C3
+        opacity: 0.5
+        border-radius: 100px
+        box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2)
+        color: #0B3157
+        font-family: "Montserrat", sans-serif
+        font-size: 14px
+        font-weight: 700
+        transition: all .3s
+        margin-left: 32px
+        pointer-events: none
+    .Register-button
+        pointer-events: auto
+        opacity: 1
+        color: white
+        &:hover
+            opacity: 0.75
